@@ -1,0 +1,20 @@
+node_modules
+# Keep environment variables out of version control
+
+
+/generated/prisma
+node_modules/
+.env
+.env.*
+!.env.example
+
+uploads/*
+!uploads/.gitkeep
+
+*.log
+
+.DS_Store
+Thumbs.db
+
+.vscode/
+.idea/
